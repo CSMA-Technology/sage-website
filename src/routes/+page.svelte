@@ -1,15 +1,8 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout</li>
-			<li><code class="code">/src/app.postcss</code> - app wide css</li>
-			<li>
-				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
-			</li>
-		</ul>
+<div class="container mx-auto flex h-full items-center justify-center">
+	<div class="grid grid-cols-2">
+		<div class="mx-auto py-20">
+			<img src="/summer.webp" alt="Summer Kiesel" width="487" height="626" />
+		</div>
+		<div class="bg-secondary-500"></div>
 	</div>
 </div>
