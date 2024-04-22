@@ -1,4 +1,6 @@
-<div class="mx-auto flex h-full w-full items-center justify-center">
+<div
+	class="mx-auto flex h-full w-full items-center justify-center border-t-[9px] border-tertiary-500"
+>
 	<div class="grid w-full grid-cols-1 md:grid-cols-2">
 		<div class="mx-auto py-20">
 			<img src="/summer.webp" alt="Summer Kiesel" width="487" height="626" />
@@ -20,22 +22,22 @@
 			<h2 class="h1 font-serif">Qualifications and Trainings</h2>
 			<p class="my-6 text-3xl tracking-tighter">————</p>
 			<ul class="list-disc">
-				<li class="list-ite6 mb-8 text-lg leading-8">
+				<li class="mb-8 list-item text-lg leading-8">
 					M.Ed. in Special Education from the University of Florida
 				</li>
-				<li class="list-ite6 mb-8 text-lg leading-8">
+				<li class="mb-8 list-item text-lg leading-8">
 					Graduate of the University of Florida Dyslexia Certificate program and CERI certified as a
 					Structured Literacy Dyslexia Interventionist
 				</li>
-				<li class="list-ite6 mb-8 text-lg leading-8">
+				<li class="mb-8 list-item text-lg leading-8">
 					Trained in the Orton-Gillingham approach to reading, using multi-sensory structured
 					literacy techniques
 				</li>
-				<li class="list-ite6 mb-8 text-lg leading-8">
+				<li class="mb-8 list-item text-lg leading-8">
 					5 years of experience as a Special Education teacher in Florida public schools, serving
 					students in Kindergarten through High School
 				</li>
-				<li class="list-ite6 mb-8 text-lg leading-8">
+				<li class="mb-8 list-item text-lg leading-8">
 					Certified in Elementary Education, Exceptional Student Education, English for Speakers of
 					Other Languages and endorsed in Reading (K-12)
 				</li>
