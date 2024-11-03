@@ -2,10 +2,15 @@
 	<div class="mx-auto max-w-2xl text-center">
 		<h1 class="h1 font-serif">Contact</h1>
 		<p class="mt-4 text-lg leading-8">
-			Let's get started on your child's journey to success and confidence in reading. I am currently
-			only scheduling formal reading evaluations and am not able to take on new tutoring clients. If
-			you would like to schedule an evaluation or join the waitlist for tutoring, please reach out
-			via the form below.
+			Let's get started on your child's journey to success and confidence in reading. <strong
+				>I am currently only scheduling formal reading evaluations</strong
+			>
+			and am not able to take on new tutoring clients.
+			<a class="underline" href="/#waitlist">Join the waitlist</a> to be notified when I have an opening.
+		</p>
+		<p class="text-lg">
+			If you would like to schedule an evaluation or have an inquiry about my services, please reach
+			out via the form below.
 		</p>
 	</div>
 </div>
@@ -14,11 +19,9 @@
 		<div class="grid grid-cols-2 gap-12">
 			<div>
 				<img src="/pin-icon.png" alt="" class="h-6" />
-				<h3 class="h4 my-2">Address</h3>
-				<p>13304 Winding Oak Ct,</p>
-				<p>Suite B</p>
+				<h3 class="h4 my-2">Location</h3>
 				<p>Tampa, FL</p>
-				<p>33612</p>
+				<p>Lake Magdalene</p>
 			</div>
 			<div>
 				<img src="/phone-icon.png" alt="" class="h-6" />
@@ -34,10 +37,10 @@
 				<img src="/thumbs-up-icon.png" alt="" class="h-6" />
 				<h3 class="h4 my-2">Social Media</h3>
 				<div class="-ml-2 flex flex-row">
-					<a href="https://www.facebook.com/sageliteracy" target="_blank" rel="noopener">
+					<a href="https://www.facebook.com/sageliteracytutoring" target="_blank" rel="noopener">
 						<img src="/fb-logo.webp" alt="" width="25" />
 					</a>
-					<a href="https://www.facebook.com/sageliteracy" target="_blank" rel="noopener">
+					<a href="https://www.instagram.com/SAGELITERACY	" target="_blank" rel="noopener">
 						<img src="/ig-logo.webp" alt="" width="25" />
 					</a>
 				</div>
@@ -81,38 +84,11 @@
 					</label>
 					<label class="label">
 						<input class="checkbox mb-0.5 border-primary-500" type="checkbox" />
-						<span class="ml-2">Home Education Support</span>
-					</label>
-					<label class="label">
-						<input class="checkbox mb-0.5 border-primary-500" type="checkbox" />
-						<span class="ml-2">Advocacy</span>
+						<span class="ml-2">Parent and Educator Training</span>
 					</label>
 				</div>
 			</fieldset>
 			<button class="variant-filled-primary btn mt-6 w-full rounded-none">Send</button>
 		</form>
-	</div>
-	<div class="col-span-2">
-		<div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:400px;">
-			<div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
-				<iframe
-					style="height:100%;width:100%;border:0;"
-					frameborder="0"
-					title="Map of Sage Literacy's location in Tampa, FL"
-					src="https://www.google.com/maps/embed/v1/place?q=Sage+Literacy,+Winding+Oak+Court,+Tampa,+FL,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-				></iframe>
-			</div>
-			<a class="google-map-html" href="https://kbj9qpmy.com/bp" id="get-map-data"
-				>Broadband Providers</a
-			><style>
-				#my-map-canvas img.text-marker {
-					max-width: none !important;
-					background: none !important;
-				}
-				img {
-					max-width: none;
-				}
-			</style>
-		</div>
 	</div>
 </div>

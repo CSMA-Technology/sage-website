@@ -22,7 +22,7 @@
 					<p in:fly|global={{ y: 100, duration: 1500 }} class="mt-6 leading-7">
 						Every child should learn to read in an environment that is fun, encouraging and tailored
 						to their strengths and needs. As a special education teacher of 5 years with specialized
-						training in Lindamood-Bell Learning Processes and the Orton Gillingham method, I am
+						training in Lindamood-Bell Learning Processes and the Orton-Gillingham method, I am
 						passionate about helping every student blossom into a confident reader. Whether your
 						child is just starting school or has been struggling to keep up with reading for a few
 						years now, I would be honored to work with your family to develop a pathway to literacy
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 		<div class="px-14 py-24">
-			<div class="mx-auto max-w-xl">
+			<div class="max-w-xl">
 				<VisibilityMount>
 					<h2 in:fly|global={{ x: -100, duration: 1500 }} class="h1 font-serif">Services</h2>
 					<p in:fly|global={{ x: 100, duration: 1500 }} class="my-6 text-3xl tracking-tighter">
@@ -73,53 +73,39 @@
 					</p>
 					<div
 						in:fly|global={{ y: 100, duration: 1500 }}
-						class="grid w-full grid-cols-2 gap-x-2 gap-y-8"
+						class="grid w-full grid-cols-1 gap-x-2 gap-y-8"
 					>
-						<div class="mx-auto flex w-40 flex-col items-center gap-2 text-center">
+						<div class="mx-auto flex items-center gap-8">
 							<div
 								class="box-content h-[110px] w-[110px] rounded-full border-black bg-secondary-500 p-3 shadow-[0_0_5px_black]"
 							>
-								<img src="/abc-icon.webp" width="110" alt="" />
+								<img src="/tutoring.webp" width="110" alt="" />
 							</div>
-							<p class="text-xl">One-on-one Tutoring Sessions</p>
+							<p class="w-[10rem] text-xl">Individual Tutoring</p>
 						</div>
-						<div class="mx-auto flex w-40 flex-col items-center gap-2 text-center">
-							<div
-								class="box-content flex h-[110px] w-[110px] flex-col rounded-full border-black bg-secondary-500 p-3 shadow-[0_0_5px_black]"
-							>
-								<img
-									class="my-auto ml-1"
-									src="/computer-icon.webp"
-									width="110"
-									height="110"
-									alt=""
-								/>
-							</div>
-							<p class="text-xl">Virtual Tutoring</p>
-						</div>
-						<div class="mx-auto flex w-40 flex-col items-center gap-2 text-center">
+						<div class="mx-auto flex items-center gap-8">
 							<div
 								class="box-content h-[110px] w-[110px] rounded-full border-black bg-secondary-500 p-3 shadow-[0_0_5px_black]"
 							>
-								<img src="/notes-icon.webp" width="110" alt="" />
+								<img src="/evaluation.png" class="max-h-[100px]" alt="" />
 							</div>
-							<p class="text-xl">IEP Consultation and Advocacy</p>
+							<p class="w-[10rem] text-xl">Reading Evaluation</p>
 						</div>
-						<div class="mx-auto flex w-40 flex-col items-center gap-2 text-center">
+						<div class="mx-auto flex items-center gap-8">
 							<div
-								class="box-content flex h-[110px] w-[110px] flex-col justify-center rounded-full border-black bg-secondary-500 p-3 shadow-[0_0_5px_black]"
+								class="box-content h-[110px] w-[110px] rounded-full border-black bg-secondary-500 p-3 shadow-[0_0_5px_black]"
 							>
-								<img class="mb-2" src="/home-icon.webp" width="110" alt="" />
+								<img src="/training.png" alt="" />
 							</div>
-							<p class="text-xl">Home School Support</p>
+							<p class="w-[10rem] text-xl">Parent and Educator Training</p>
 						</div>
-					</div>
-					<div class="flex w-full flex-row justify-center">
-						<a href="/services" class="variant-filled-primary btn mx-auto mt-10 w-48 rounded-none"
-							>Read More</a
-						>
-					</div>
-				</VisibilityMount>
+						<div class="flex w-full flex-row justify-center">
+							<a href="/services" class="variant-filled-primary btn mx-auto mt-10 w-48 rounded-none"
+								>Read More</a
+							>
+						</div>
+					</div></VisibilityMount
+				>
 			</div>
 		</div>
 		<div class="px-14 py-24">
@@ -130,9 +116,11 @@
 			</div>
 		</div>
 		<div class="bg-secondary-500 px-14 py-24">
-			<div class="mx-auto max-w-xl">
+			<div class="mx-auto max-w-xl" id="waitlist">
 				<VisibilityMount>
-					<h2 in:fly|global={{ x: -100, duration: 1500 }} class="h3 font-serif">Contact Me</h2>
+					<h2 in:fly|global={{ x: -100, duration: 1500 }} class="h3 font-serif">
+						Tutoring Waitlist
+					</h2>
 					<p in:fly|global={{ x: 100, duration: 1500 }} class="mb-8 text-3xl tracking-tighter">
 						———
 					</p>
@@ -141,28 +129,39 @@
 						evaluations and to join the waitlist for tutoring. Please feel free to contact me below
 						with questions or to join the waitlist!
 					</p>
-					<p in:fly|global={{ y: 100, duration: 1500 }} class="mt-14">
-						summerkiesel@sageliteracy.org
-					</p>
 					<form in:fly|global={{ y: 100, duration: 1500 }} class="mt-6 bg-slate-100 p-4">
 						<div class="flex flex-row gap-4">
 							<input aria-label="name" class="input rounded-none" type="text" placeholder="Name" />
-							<input
-								aria-label="email"
-								class="input rounded-none"
-								type="text"
-								placeholder="Email"
-							/>
+							<input aria-label="name" class="input rounded-none" type="text" placeholder="Phone" />
 						</div>
-						<textarea
-							aria-label="message"
+						<input
+							aria-label="email"
 							class="input mt-4 rounded-none"
-							placeholder="Message"
-							rows="5"
-						></textarea>
-						<button class="variant-filled-primary btn mt-4 w-full rounded-none">Submit</button>
+							type="text"
+							placeholder="Email"
+						/>
+						<!-- TODO: Hook this up to a Netlify form and possibly other Zapier zaps for automated emails -->
+						<button class="variant-filled-primary btn mt-4 w-full rounded-none"
+							>Join the Waitlist</button
+						>
 					</form>
-					<p class="mt-8 text-center">13304 Winding Oak Ct, Suite B <br /> Tampa, FL 33612</p>
+					<h2 in:fly|global={{ x: -100, duration: 1500 }} class="h3 mt-14 font-serif">
+						Contact Me
+					</h2>
+					<p in:fly|global={{ x: 100, duration: 1500 }} class="mb-8 text-3xl tracking-tighter">
+						———
+					</p>
+					<div in:fly|global={{ y: 100, duration: 1500 }} class="flex flex-col">
+						<p>
+							Please reach out if you have any other questions or would like to schedule another
+							service. You may reach me at <a href="mailto:summerkiesel@sageliteracy.org"
+								><strong>summerkiesel@sageliteracy.org</strong></a
+							> or by heading to my contact page below.
+						</p>
+						<a href="/contact" class="variant-filled-primary btn mx-auto mt-10 w-48 rounded-none"
+							>Contact Summer</a
+						>
+					</div>
 				</VisibilityMount>
 			</div>
 		</div>

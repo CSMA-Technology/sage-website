@@ -10,8 +10,8 @@
 			<h2 class="h3">What ages do you work with?</h2>
 			<p class="mt-2">
 				My approach works with learners of all ages, but it is most suited for those in Kindergarten
-				through 5th grade. Older student who are struggling with foundational reading skills like
-				decoding or spelling will also benefit from Orton Gillingham instruction.
+				through 5th grade. Older students who are struggling with foundational reading skills like
+				decoding or spelling will also benefit from Orton-Gillingham instruction.
 			</p>
 		</div>
 	</li>
@@ -44,31 +44,12 @@
 	</li>
 	<li class="list-item">
 		<div>
-			<h2 class="h3">How does tutoring work over Zoom?</h2>
+			<h2 class="h3">Where does tutoring take place?</h2>
 			<p class="mt-2">
-				With the right technology, students can experience fun, multi-sensory reading intervention,
-				even online! I utilize the white board feature and multiple online resources to deliver
-				instruction. As long as students have access to a touch screen (iPad preferred), they can
-				use a stylus to practice handwriting and work on decoding skills while receiving sensory
-				feedback. Even students who struggle with sustained attention will enjoy the movement games
-				and fun activities that are designed to motivate them through each session.
-			</p>
-		</div>
-	</li>
-	<li class="list-item">
-		<div>
-			<h2 class="h3">Why do I need an advocate?</h2>
-			<p class="mt-2">
-				As someone who has worked as a special education teacher in the public school system, I know
-				that while school staff always have the best intentions, they may feel limited in what
-				services they can provide or not have the best understanding of your child's needs. The laws
-				and terminology surrounding the education of students with disabilities are complex and can
-				be daunting for a parent to navigate. I will be there to walk you through the process by
-				listening to your concerns for your child's education and advocate for that to be reflected
-				in their Individualized Education Plans. This service is complimentary for families enrolled
-				in tutoring, but I encourage any family that has a student with an IEP or who is looking to
-				get the process started at their school to reach out to me and see how I can support you in
-				ensuring your child's educational needs are met at school.
+				Tutoring sessions are delivered in-person at my home office in Lake Magdalene, Florida.
+				Parents are welcome to sit inside or drop off students and return at the end of the session.
+				As a back-up when students are sick or there is inclement weather, I offer virtual tutoring
+				through Zoom.
 			</p>
 		</div>
 	</li>
