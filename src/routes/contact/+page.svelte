@@ -48,24 +48,45 @@
 		</div>
 	</div>
 	<div class="border border-l-0 border-black p-16">
-		<form class="">
+		<form data-netlify="true" name="contact-form" method="POST" action="/contact/thank-you">
+			<input type="hidden" name="form-name" value="contact-form" />
 			<div class="flex flex-row gap-4">
 				<label class="label text-sm">
-					First Name
-					<input class="input !variant-outline-primary mt-1 rounded-none" type="text" />
+					First Name *
+					<input
+						required
+						class="input !variant-outline-primary mt-1 rounded-none"
+						name="first-name"
+						type="text"
+					/>
 				</label>
 				<label class="label text-sm">
-					Last Name
-					<input class="input !variant-outline-primary mt-1 rounded-none" type="text" />
+					Last Name *
+					<input
+						required
+						class="input !variant-outline-primary mt-1 rounded-none"
+						name="last-name"
+						type="text"
+					/>
 				</label>
 			</div>
 			<label class="label mt-6 text-sm">
 				Email *
-				<input required class="input !variant-outline-primary mt-1 rounded-none" type="text" />
+				<input
+					required
+					class="input !variant-outline-primary mt-1 rounded-none"
+					name="email"
+					type="email"
+				/>
 			</label>
 			<label class="label mt-6 text-sm">
-				Phone
-				<input class="input !variant-outline-primary mt-1 rounded-none" type="text" />
+				Phone *
+				<input
+					required
+					class="input !variant-outline-primary mt-1 rounded-none"
+					name="phone"
+					type="tel"
+				/>
 			</label>
 			<label class="label mt-6 text-sm">
 				Message
@@ -88,7 +109,8 @@
 					</label>
 				</div>
 			</fieldset>
-			<button class="variant-filled-primary btn mt-6 w-full rounded-none">Send</button>
+			<button class="variant-filled-primary btn mt-6 w-full rounded-none" type="submit">Send</button
+			>
 		</form>
 	</div>
 </div>
