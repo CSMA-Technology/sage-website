@@ -1,6 +1,15 @@
-<script>
+<script lang="ts">
 	import VisibilityMount from '$lib/components/VisibilityMount.svelte';
 	import { fly } from 'svelte/transition';
+	import emblaCarouselSvelte from 'embla-carousel-svelte';
+	import Autoplay from 'embla-carousel-autoplay';
+	import Testimonial from '$lib/components/Testimonial.svelte';
+	import type { EmblaCarouselType } from 'embla-carousel';
+
+	let emblaInstance: EmblaCarouselType;
+	const onCarouselInit = (event: { detail: EmblaCarouselType }) => {
+		emblaInstance = event.detail;
+	};
 </script>
 
 <div
@@ -30,6 +39,82 @@
 					</p>
 				</VisibilityMount>
 			</div>
+		</div>
+		<div class="col-span-2 min-h-96 bg-primary-500 p-6 text-center">
+			<VisibilityMount>
+				<div class="flex justify-between">
+					<button
+						on:click={() => emblaInstance.scrollPrev()}
+						class="my-auto mr-6 min-w-5 text-white"
+					>
+						<svg class="stroke-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 41"
+							><path class="fill-current" d="M20.3 40.8 0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"
+							></path></svg
+						>
+					</button>
+					<div
+						class="embla"
+						use:emblaCarouselSvelte={{
+							options: { loop: true },
+							plugins: [
+								Autoplay({ delay: 10000, stopOnMouseEnter: true, stopOnInteraction: false })
+							]
+						}}
+						on:emblaInit={onCarouselInit}
+						in:fly|global={{ y: 100, duration: 1500 }}
+					>
+						<div class="embla__container">
+							<div class="embla__slide">
+								<Testimonial>
+									Two of my children (ages 10 and 13) have dyslexia and have been homeschooled from
+									the beginning. Despite my efforts to meet their needs at home, using curricula
+									designed for dyslexics, they were having significant struggles with reading and
+									spelling. I found Summer online and boy has she been an answer to our prayers!
+									Both of my kids really liked her and made HUGE improvements thanks to her
+									tutoring. I wholeheartedly recommend her to other families!
+									<div slot="author">Amy S.</div>
+								</Testimonial>
+							</div>
+							<div class="embla__slide">
+								<Testimonial>
+									My son received reading tutoring with Summer for 2 years. I cannot say enough good
+									things about her! He made tremendous and consistent progress with her during that
+									time and enjoyed seeing her each week. If you can snag a spot with her, take it!
+									<div slot="author">Ashley H.</div>
+								</Testimonial>
+							</div>
+							<div class="embla__slide">
+								<Testimonial>
+									Summer truly has a gift to connect with and reach students that are struggling
+									with reading. My son started working with Summer in the beginning of November 22
+									and has shown tremendous growth with her in just a few months. My son took a MAPS
+									reading assessment at school in the fall of 2022 and he just tested again end of
+									January 2023. His scores improved dramatically. He went from 59 percentile to the
+									78th, which put his growth rate in the 90th percentile from his fall to winter
+									test. I have gone from feeling helpless with being able to help my son to
+									encouraged and at peace with how he is progressing with Summer’s help. Not only is
+									my son showing progress, he genuinely enjoys going to her and gets upset if he has
+									to miss a session.
+									<div slot="author">Melissa I.</div>
+								</Testimonial>
+							</div>
+						</div>
+					</div>
+					<button
+						on:click={() => emblaInstance.scrollNext()}
+						class="my-auto ml-6 min-w-5 text-white"
+					>
+						<svg
+							style="transform: scaleX(-1);"
+							class="stroke-white"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 21 41"
+							><path class="fill-current" d="M20.3 40.8 0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"
+							></path></svg
+						>
+					</button>
+				</div>
+			</VisibilityMount>
 		</div>
 		<div class="bg-secondary-500 px-14 py-24">
 			<div class="mx-auto max-w-xl">
@@ -167,3 +252,19 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.embla {
+		overflow: hidden;
+	}
+	.embla__container {
+		display: flex;
+		align-items: flex-start;
+		height: 100%;
+	}
+	.embla__slide {
+		flex: 0 0 100%;
+		min-width: 0;
+		height: 100%;
+	}
+</style>
