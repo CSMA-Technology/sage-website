@@ -50,6 +50,12 @@
 	<div class="border border-l-0 border-black p-16">
 		<form data-netlify="true" name="contact-form" method="POST" action="/contact/thank-you">
 			<input type="hidden" name="form-name" value="contact-form" />
+			<input
+				type="hidden"
+				name="subject"
+				data-remove-prefix
+				value="Contact Form submission from sageliteracy.org"
+			/>
 			<div class="flex flex-row gap-4">
 				<label class="label text-sm">
 					First Name *
