@@ -16,13 +16,16 @@
 	class="mx-auto flex h-full w-full items-center justify-center border-t-[9px] border-tertiary-500"
 >
 	<div class="grid w-full grid-cols-1 md:grid-cols-2">
-		<div class="mx-auto py-20">
+		<div class="mx-auto md:py-20">
 			<img src="/summer.webp" alt="Summer Kiesel" width="487" height="626" />
 		</div>
 		<div class="bg-secondary-500 px-14 py-24">
 			<div class="mx-auto max-w-xl">
 				<VisibilityMount>
-					<h2 in:fly|global={{ x: -100, duration: 1500 }} class="h1 font-serif text-8xl">
+					<h2
+						in:fly|global={{ x: -100, duration: 1500 }}
+						class="h1 font-serif text-7xl md:text-8xl"
+					>
 						Summer Kiesel
 					</h2>
 					<p in:fly|global={{ x: 100, duration: 1500 }} class="h3 mt-6">
@@ -40,7 +43,7 @@
 				</VisibilityMount>
 			</div>
 		</div>
-		<div class="col-span-2 min-h-96 bg-primary-500 p-6 text-center">
+		<div class="min-h-96 bg-primary-500 p-6 text-center md:col-span-2">
 			<VisibilityMount>
 				<div class="flex justify-between">
 					<button
