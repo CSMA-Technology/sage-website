@@ -14,7 +14,7 @@
 		</p>
 	</div>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid md:grid-cols-2">
 	<div class="border border-black p-16">
 		<div class="grid grid-cols-2 gap-12">
 			<div>
@@ -28,7 +28,7 @@
 				<h3 class="h4 my-2">Phone</h3>
 				<p>813-773-5578</p>
 			</div>
-			<div>
+			<div class="max-w-1/2 break-all">
 				<img src="/email-icon.png" alt="" class="h-6" />
 				<h3 class="h4 my-2">Email</h3>
 				<p>summerkiesel@sageliteracy.org</p>
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="border border-l-0 border-black p-16">
+	<div class="border border-l-0 border-black p-16 max-md:-order-1">
 		<form data-netlify="true" name="contact-form" method="POST" action="/contact/thank-you">
 			<input type="hidden" name="form-name" value="contact-form" />
 			<input

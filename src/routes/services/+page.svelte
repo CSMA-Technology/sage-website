@@ -2,8 +2,8 @@
 	<h1 class="h1 mt-8">Services</h1>
 </div>
 <div class="flex flex-col items-center bg-[#7B8E70] px-2 py-14">
-	<div class="flex w-[90%] justify-center gap-5 text-[#4C683D]">
-		<div class="relative flex w-1/3 flex-col items-center bg-white px-10 py-8 text-left">
+	<div class="flex w-[90%] flex-wrap justify-center gap-5 gap-y-14 text-[#4C683D] md:flex-nowrap">
+		<div class="relative flex flex-col items-center bg-white px-10 py-8 text-left md:w-1/3">
 			<div
 				class="absolute -top-10 left-1/2 flex h-20 w-20 -translate-x-1/2 transform items-center justify-center rounded-full bg-gray-100 text-3xl font-semibold text-[#4C683D]"
 			>
@@ -33,7 +33,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="relative flex w-1/3 flex-col items-center bg-white px-10 py-8">
+		<div class="relative flex flex-col items-center bg-white px-10 py-8 md:w-1/3">
 			<div
 				class="absolute -top-10 left-1/2 flex h-20 w-20 -translate-x-1/2 transform items-center justify-center rounded-full bg-gray-100 text-3xl font-semibold text-[#4C683D]"
 			>
@@ -63,7 +63,7 @@
 				Note: This assessment does not serve as a diagnosis for reading disabilities.
 			</p>
 		</div>
-		<div class="relative flex w-1/3 flex-col items-center bg-white px-10 py-8">
+		<div class="relative flex flex-col items-center bg-white px-10 py-8 md:w-1/3">
 			<div
 				class="absolute -top-10 left-1/2 flex h-20 w-20 -translate-x-1/2 transform items-center justify-center rounded-full bg-gray-100 text-3xl font-semibold text-[#4C683D]"
 			>

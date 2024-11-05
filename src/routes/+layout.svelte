@@ -60,6 +60,7 @@
 			<img src="/sage-logo.webp" alt="Logo" width="182" height="182" />
 		</a>
 		<button
+			role="menu"
 			class="absolute right-0 top-0 mr-4"
 			on:click|stopPropagation={() => (isMenuOpen = !isMenuOpen)}
 		>
