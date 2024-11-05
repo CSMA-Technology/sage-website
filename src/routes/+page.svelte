@@ -129,19 +129,45 @@
 						evaluations and to join the waitlist for tutoring. Please feel free to contact me below
 						with questions or to join the waitlist!
 					</p>
-					<form in:fly|global={{ y: 100, duration: 1500 }} class="mt-6 bg-slate-100 p-4">
+					<form
+						data-netlify="true"
+						name="tutoring-waitlist"
+						method="POST"
+						action="/contact/thank-you"
+						in:fly|global={{ y: 100, duration: 1500 }}
+						class="mt-6 bg-slate-100 p-4"
+					>
+						<input type="hidden" name="form-name" value="tutoring-waitlist" />
+						<input
+							type="hidden"
+							name="subject"
+							data-remove-prefix
+							value="Tutoring Waitlist submission from sageliteracy.org"
+						/>
 						<div class="flex flex-row gap-4">
-							<input aria-label="name" class="input rounded-none" type="text" placeholder="Name" />
-							<input aria-label="name" class="input rounded-none" type="text" placeholder="Phone" />
+							<input
+								aria-label="name"
+								class="input rounded-none"
+								name="name"
+								type="text"
+								placeholder="Name"
+							/>
+							<input
+								aria-label="name"
+								class="input rounded-none"
+								name="phone"
+								type="text"
+								placeholder="Phone"
+							/>
 						</div>
 						<input
 							aria-label="email"
 							class="input mt-4 rounded-none"
+							name="email"
 							type="text"
 							placeholder="Email"
 						/>
-						<!-- TODO: Hook this up to a Netlify form and possibly other Zapier zaps for automated emails -->
-						<button class="variant-filled-primary btn mt-4 w-full rounded-none"
+						<button class="variant-filled-primary btn mt-4 w-full rounded-none" type="submit"
 							>Join the Waitlist</button
 						>
 					</form>
