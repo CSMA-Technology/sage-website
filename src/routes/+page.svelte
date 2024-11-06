@@ -255,6 +255,69 @@
 							type="text"
 							placeholder="Email"
 						/>
+						<input
+							aria-label="grade"
+							class="input mt-4 rounded-none"
+							name="grade"
+							type="text"
+							placeholder="Student Grade"
+						/>
+						<input
+							aria-label="setting"
+							class="input mt-4 rounded-none"
+							name="setting"
+							type="text"
+							placeholder="School Setting"
+						/>
+						<label class="text-md label mt-6">
+							What is the primary area of concern for your student?
+							<ul class="mt-2 text-sm">
+								<li>
+									<strong>Decoding/Fluency:</strong> Your child has difficulty reading unfamiliar words,
+									often substitutes similar-looking words, reads slowly or choppily
+								</li>
+								<li>
+									<strong>Spelling:</strong> Your child is able to read on grade-level but struggles
+									with spelling "sight words" or regularly spelled words
+								</li>
+								<li>
+									<strong>Comprehension:</strong> Your child struggles with recalling or sequencing details
+									from a story even when it's read aloud to them and may have a harder time recalling
+									the meaning of grade-level vocabulary words
+								</li>
+								<li>
+									<strong>Written Expression:</strong> Your child is able to spell accurately but struggles
+									with organizing their thoughts on paper or writing complete sentences
+								</li>
+							</ul>
+							<textarea
+								class="input !variant-outline-primary mt-1 rounded-none"
+								rows="3"
+								placeholder="Provide details about your concerns using the above categories"
+								aria-label="concerns"
+								name="concerns"
+							></textarea>
+						</label>
+						<label class="text-md label mt-2">
+							Does your child have an IEP?<input
+								aria-label="IEP"
+								class="input mt-1 rounded-none"
+								name="IEP"
+								type="text"
+								placeholder="Yes or No"
+							/></label
+						>
+						<label class="text-md label mt-6">
+							Do you currently receive any Step Up for Students scholarships?
+							<input
+								aria-label="scholarships"
+								class="input mt-1 rounded-none"
+								name="scholarships"
+								type="text"
+								placeholder="Yes or No"
+							/>
+						</label>
+
 						<button class="variant-filled-primary btn mt-4 w-full rounded-none" type="submit"
 							>Join the Waitlist</button
 						>
